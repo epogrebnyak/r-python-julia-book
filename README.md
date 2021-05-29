@@ -10,9 +10,6 @@ We would like to collect in one place things we got tired of repeating,
 so that we can provide background reading to the students before class. 
 Hope it makes a fair guide to self-study too.
 
-Another hope is that after writing out basic programming stuff we can move on to
-things more relevant to econ/finance (datasets, reproducible research) 
-
 We are writing the draft in Russian, some courses we taught are in English, 
 so there may be an English version too. 
 
