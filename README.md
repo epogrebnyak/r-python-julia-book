@@ -2,22 +2,28 @@
 
 > Why choose, learn them all: R, Python and Julia for economics and finance.
 
-This is a draft of a book (collection of learning materials), based on 
-teaching of computational courses to economics, management and finance students
-at NES, HSE, GSOM SPBU and Finec MGIMO.
+This draft is based on out experience in teaching various computational courses 
+to economics and finance students at NES, HSE, GSOM SPBU and Finec MGIMO.
 
-We would like to collect in one place things we got tired of repeating,
-so that we can provide background reading to the students before class. 
-Hope it makes a fair guide to self-study too.
+Goal #1 is to collect good references in one place, so that we can provide 
+background reading to the students before class more easily.  Hope the references 
+make a fair guide to self-study too.
 
-We are writing the draft in Russian, some courses we taught are in English, 
+Goal #2 is avoid repeating common stuff (how to start Python, etc) and move 
+more quickly to domain areas - econ/finance data and reproducible research.
+
+Goal #3 is dismantle barriers to programming learners and cultivate a 
+welcoming culture that celebrates small credible wins and iterations. 
+Many courses are like "let's learn python, econometrics, 
+machine learning, and deep learning all at once", want to break these in parts.
+
+We are writing the draft in Russian, but some courses we taught are in English, 
 so there may be an English version too. 
 
 Our programming language preferences:
 
-- Evgeniy: Python first, used R before, tried Julia
+- Evgeniy: Python first, used R before, tried Julia and influenced by Haskell
 - Marcel: R first, migrating to Python
-
 
 # Что? Зачем? Для кого?
 
