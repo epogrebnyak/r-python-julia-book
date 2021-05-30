@@ -17,6 +17,8 @@ welcoming culture that celebrates small credible wins and iterations.
 Many courses are like "let's learn python, econometrics, 
 machine learning, and deep learning all at once", want to break these in parts.
 
+Goal #4 is to make economists better programmers (git, shell, tests) and  
+
 We are writing the draft in Russian, but some courses we taught are in English, 
 so there may be an English version too. 
 
