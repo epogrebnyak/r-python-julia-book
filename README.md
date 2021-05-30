@@ -2,35 +2,52 @@
 
 > Why choose, learn them all: R, Python and Julia for economics and finance.
 
-This draft is based on out experience in teaching various computational courses 
-to economics and finance students at NES, HSE, GSOM SPBU and Finec MGIMO.
+This draft is based on our experience in teaching various computational courses 
+to economics and finance students at Russian universities: NES, HSE, GSOM SPBU and Finec MGIMO.
 
-Goal #1 is to collect good references in one place, so that we can provide 
-background reading to the students before class more easily.  Hope the references 
-make a fair guide to self-study too.
-
-Goal #2 is avoid repeating common stuff (how to start Python, etc) and move 
-more quickly to domain areas - econ/finance data and reproducible research.
-
-Goal #3 is dismantle barriers to programming learners and cultivate a 
-welcoming culture that celebrates small credible wins and iterations. 
-Many courses are like "let's learn python, econometrics, 
-machine learning, and deep learning all at once", want to break these in parts.
-
-Goal #4 is to make economists better programmers (git, shell, tests) and  
-
-We are writing the draft in Russian, but some courses we taught are in English, 
+Below we are writing the draft in Russian, but as we taught some courses in English, 
 so there may be an English version too. 
 
 Our programming language preferences:
 
-- Evgeniy: Python first, used R before, tried Julia and influenced by Haskell
+- Evgeniy: Python first, used R before, tried Julia and moderately influenced by Haskell
 - Marcel: R first, migrating to Python
+
+## Book goals
+
+Goal #1 is to collect good references in one place, so that we can provide 
+background reading to the students before class more easily.  
+Hope the references would make a fair guide for self-study too.
+
+Goal #2 is avoid repeating common stuff (how to start Python, etc) and move 
+more quickly to fruitful domain area tasks - econ/finance datasets and reproducible research.
+
+Subtask for #1 and 2: provide more modularuty for the computational courses, avoid  
+teach everything in one shot - installing python, syntax, libraries, machine learning
+and a little cool neural net all in one course.  
+
+Goal #3 is to lower the barriers in learning programming and foster a
+culture that celebrates small credible wins and stimulates problem-solving 
+in iterations, also allows teamwork. 
+
+Goal #4 is to make economists better programmers (git, shell, tests) and  
+more competitive as "data scientists" or "data engineers" in the job market.
+
+Goal/claim #5 - learning R AND Python AND Julia AND some other cool programming language
+(like Rust, perhaps) is better than wasting time on "which language is better for me in 2021".
+
+Hidden aspiration (#6) - can we teach probability, stats and metrics as code-first 
+disciplines? Starting from I have got a list of numbers - what can I do next?
+
+## Admired peer publications
+
+- [Quantecon](https://quantecon.org/) - a pioneer in using both Python and Julia for teaching in parallel 
+- [Jesús Fernández-Villaverde](https://www.sas.upenn.edu/~jesusfv/teaching.html) - detailed intro to computing for economists 
+- [SciPy Lectures](https://scipy-lectures.org/) - ML explained simply, a gem.
 
 # Что? Зачем? Для кого?
 
-Вводный курс для экономистов "Основы программирования и анализа данных 
-на R, Python и Julia".
+Вводный курс для экономистов "Основы программирования и анализа данных на R, Python и Julia".
 
 Основная идея - собрать в одном месте материалы по обучению программированию 
 по минимум двум языкам - R и Python, и, по возможности, Julia. 
@@ -41,8 +58,8 @@ Our programming language preferences:
 
 1. начинаю изучать Python или R "с нуля" - до этого не программировал(а)  
 2. знаком(а) с одним языком программирования и хочу попробовать другой
-3. хочу работать с экономическими и финансовыми данными
-4. заинтересован(а) улушить качество кода, навыки и процессы работы с данными и кодом
+3. хочу работать с экономическими и финансовыми данными и моделями
+4. заинтересован(а) улушить качество своего кода, навыки и процессы работы с данными и кодом
 
 Для преподавателей эти материалы полезны в случае, если:
 
@@ -55,16 +72,28 @@ Our programming language preferences:
 Введение
 ========
 
+#### Языки программирования (ЯП):
+
 - Зачем нам столько языков программирования?
   - [сравним их](https://benchmarksgame-team.pages.debian.net/benchmarksgame/index.html)  
-  - <https://rosettacode.org/wiki/Rosetta_Code>
-  
-- История от Matlab и Eview до tidyverse, tensorflow и Julia  
+  - [где еще можно посмотреть разный код](https://rosettacode.org/wiki/Rosetta_Code)
+  - объектные и функциональные, статическая и динамическая типизация и легко ли живется компилятору
+- История количественных вычислений от Matlab и Eview до tidyverse, tensorflow и Julia  
+- Так ли плох Excel?
+
+Extra links:
+
+- [Рахим - Мысли и методы - история Lisp, в двух частях](https://soundcloud.com/mimpod/episode_56?in=mimpod/sets/all_episodes)
+- [Rust Crash Course by Brad Traversy](https://www.youtube.com/watch?v=zF34dRivLOw)
+
+
+#### Личный путь:
+
 - Барьеры в изучении програмирования и как их обойти 
 - Эконометрика vs машинное обучение vs data science
-- Рынок труда - вакансии со знанием R, Python, Julia
+- Рынок труда - вакансии со знанием R (есть), Python (есть), Julia (их нет)
 
-Overview videos:
+#### Обзорные видео // Overview videos:
 
 - [Overview and History of R](https://www.youtube.com/watch?v=STihTnVSZnI)
 - [The Story of Python by Guido van Rossum](https://www.youtube.com/watch?v=J0Aq44Pze-w)
@@ -74,14 +103,18 @@ Overview videos:
   - [Bezanson](https://www.youtube.com/watch?v=W6I1zQ16_44) 
   - [Shah](https://www.youtube.com/watch?v=cLFfTE2KWrk)
 
-Other:
+Extra links:
 
 - [Why Python is huge in finance? by Daniel Roos](https://www.youtube.com/watch?v=kBwOy-6CtAQ&t=1299s)
-- [Rust Crash Course by Brad Traversy](https://www.youtube.com/watch?v=zF34dRivLOw)- [Sargent - Economic models](https://www.youtube.com/watch?v=0Mf_LvwxFqY)
+- [Sargent - Economic models](https://www.youtube.com/watch?v=0Mf_LvwxFqY)
+
+Julia:
+
 - [Язык Julia - сравнение простых программ с Python и C](https://www.youtube.com/watch?v=5sdrltkxm2Q)
 - [Intro to Julia tutorial (version 1.0)](https://www.youtube.com/watch?v=8h8rQyEpiZA)
 - [How We Wrote a Textbook using Julia](https://www.youtube.com/watch?v=ofWy5kaZU3g)
 - [When compiler technology meets Market Risk Management](https://www.youtube.com/watch?v=4vDub-yoX1E&list=PLP8iPy9hna6Tl2UHTrm4jnIYrLkIcAROR&index=12)
+
 
 Часть 1. До программирования
 ============================
@@ -135,10 +168,11 @@ Other:
 
 На примере Python - много языков в одном:
 
+- функции, давать ли объекты
 - pandas вообще не похож на pure python
 - async/await 
 - pattern matching
-- "раньше можно было рассказать python за 2 дня"
+- "раньше можно было рассказать python за 2 дня, сейчас нет"
 
 #### Привет, мир!
 
@@ -161,28 +195,46 @@ Other:
 
 #### Значения (value) и выражения (expression)
 
-- целое
-- действительное
-- строка
-- выражения 
+Типы данных:
+
+- целое число (`int`)
+- действительное число (`float`)
+- строка (`str`)
+
+Упраженение: каких типов данных не хватает?
+
+Выражения: `2*2`, `"Hi, " + "all!"` 
 
 #### Переменные 
 
+Оператор присваивания (это вам не игрушки, зачеркнуто) - это не математическое равенство. Глубокий смысл `<-` в R.
+
 #### Структуры данных (containers)
+
+Структуры данных:
 
 - список (list) 
 - словарь (dictionary)
 - кортеж (tuple)
 - набор (set)
+
+Что с ними делать:
+
 - итерирование по элементам и распаковка
 - строка как список символов
+
+Extra:
+
+- хитрые структуры данных, которые экономисту знать обычно не положено
+- ссылки на курсы по data structures and algorithms
+- аннотации типов и mypy
 
 #### Управление
 
 - if/else
 - for/range
 - while
-- case
+- case / pattern matching 
 
 Checkpoint: напишите код для инверсии (изменения порядка следования символов) строки.
 
@@ -191,7 +243,7 @@ Checkpoint: напишите код для инверсии (изменения 
 Функции 1:
 
 - логика - зачем функция нужна, что делает?
-- откуда берутся функции: написали сами или импортировали (стандартная библиотека или пакет)
+- откуда берутся функции: написали сами или импортировали, откуда импортировали - стандартная библиотека или пакет
 - синтаксис `def` / `return`
 - аргументы функции
 - docstring функции
@@ -207,7 +259,7 @@ Checkpoint: напишите код для инверсии (изменения 
 
 - немного света на ООП, сравнение с функциональным программированием
 - в первом приближении класс - это структура данных, склеенная методами для работы 
-- синтаксис классов нужен для pandas и например .method() в строках 
+- синтаксис классов нужен для pandas и, например, .method() в строках 
 - актуально для Python (everything is a class), но не для R/Julia 
 
 #### Взаимодействие программы с внешним миром
