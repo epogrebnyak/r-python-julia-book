@@ -30,7 +30,7 @@ Goal #3 is to lower the barriers in learning programming and foster a
 culture that celebrates small credible wins and stimulates problem-solving 
 in iterations, also allows teamwork. 
 
-Goal #4 is to make economists better programmers (git, shell, tests) and  
+Goal #4 is to make economists better programmers (git, shell, tests) and
 more competitive as "data scientists" or "data engineers" in the job market.
 
 Goal/claim #5 - learning R AND Python AND Julia AND some other cool programming language
