@@ -22,8 +22,8 @@ Hope the references would make a fair guide for self-study too.
 Goal #2 is avoid repeating common stuff (how to start Python, etc) and move 
 more quickly to fruitful domain area tasks - econ/finance datasets and reproducible research.
 
-Subtask for #1 and 2: provide more modularuty for the computational courses, avoid  
-teach everything in one shot - installing python, syntax, libraries, machine learning
+Subtask for #1 and 2: provide more modularuty for the computational courses, avoid
+teaching everything in one shot - installing python, syntax, libraries, machine learning
 and a little cool neural net all in one course.  
 
 Goal #3 is to lower the barriers in learning programming and foster a
